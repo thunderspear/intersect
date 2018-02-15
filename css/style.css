@@ -34,6 +34,16 @@ ul{
    margin: 10px 0 10px 0;
 }
 
+h1{
+   font-size: 50px;
+}
+
+h2{
+   font-size: 35px;
+}
+
+
+
 /* Header */
 header{
    background: #236AB9;
@@ -56,19 +66,22 @@ header li{
    padding: 0 20px 0 20px;
 }
 
+
 header #branding{
    float: left;
 }
 
-header #branding h1{
+header #branding h2{
    margin: 0;
    padding: 0;
+   line-height: 1.0;
+   font-weight: normal;
 }
 header #branding .subtitle{
    float: left;
    clear: left;
    color: #c0c0c0;
-   margin: 0 0 10px 0;
+   margin: 2px 0 0 3px;
 }
 
 header nav{
@@ -100,6 +113,7 @@ header a:hover{
    width: 80%;
    /*background: linear-gradient( silver, #f4f4f4);*/
    min-height: inherit;
+   max-width: 1000px;
 }
 
 #showcase h1{
@@ -109,8 +123,8 @@ header a:hover{
 
 #showcase ul{
 
-
 }
+
 #showcase .box{
    font-size: 50px;
    float: left;
@@ -122,6 +136,7 @@ header a:hover{
    color: #000000
    opacity: 0.5;
 }
+
 
 #showcase p{
    font-size: 20px;
@@ -177,6 +192,9 @@ header a:hover{
 }*/
 
 /* Boxes */
+/* TODO: Replace container pseudoclass with flexbox
+         and figure out ie compatibility
+*/
 
 #boxes{
    margin: 25px 0 25px 0;
@@ -190,7 +208,7 @@ header a:hover{
 
 #boxes .container:after {
   content: '';
-  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  width: 100%; /* At least 2 lines of text forces justification */
   display: inline-block;
 }
 
@@ -214,6 +232,13 @@ article.main-col{
    text-align: left;
 }
 
+article img{
+   display: inline;
+}
+
+article p{
+   float: left;
+}
 
 /* Sidebar */
 aside#sidebar{
