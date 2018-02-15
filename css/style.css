@@ -231,12 +231,8 @@ header a:hover{
 /* Main Column*/
 article.main-col{
    float: left;
-   width: 60%;
+   width: 65%;
    text-align: left;
-}
-
-article img{
-   display: inline;
 }
 
 article p{
@@ -246,7 +242,7 @@ article p{
 /* Sidebar */
 aside#sidebar{
    float: right;
-   width: 35%;
+   width: 30%;
 }
 
 aside#sidebar img{
@@ -273,8 +269,6 @@ aside#sidebar .quote textarea{
 
 /* Services */
 ul#services li{
-   list-style: none;
-   padding: 20px;
    border: #CCCCCC solid 1px;
    margin-bottom: 5px;
    background: #e6e6e6;
