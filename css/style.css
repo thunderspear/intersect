@@ -42,7 +42,10 @@ h2{
    font-size: 35px;
 }
 
-
+.page-title{
+   padding: 0;
+   margin: 10px 10px 20px 10px;
+}
 
 /* Header */
 header{
@@ -250,6 +253,16 @@ aside#sidebar img{
    height: 12px;
    padding-right: 5px;
    color: #FFFFFF;
+}
+aside#sidebar a{
+   text-decoration: underline;
+   color: inherit;
+}
+
+aside#sidebar a:hover{
+   text-decoration: underline;
+   color: #FDDC22;
+
 }
 
 aside#sidebar .quote input,
