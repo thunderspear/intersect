@@ -218,8 +218,11 @@ header a:hover{
 #boxes .box{
    width: 30%;
    display: inline-block;
+   float: left;
+   margin: 3px;
    text-align: center;
    min-height: 350px;
+   background: #c0c0c0;
    padding: 10px;
 }
 
@@ -272,6 +275,7 @@ ul#services li{
    border: #CCCCCC solid 1px;
    margin-bottom: 5px;
    background: #e6e6e6;
+
 }
 
 footer{
