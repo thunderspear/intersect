@@ -203,6 +203,7 @@ header nav a:hover{
    margin: 25px 0 25px 0;
    display: inline-block;
    text-align: justify;
+   width: 100%;
 }
 
 #boxes .container{
@@ -220,7 +221,7 @@ header nav a:hover{
    text-align: center;
    display: inline-block;
    float: left;
-   margin: 3px;
+   margin: 3px 10px 3px 10px;
    min-height: 350px;
 }
 
@@ -230,9 +231,7 @@ header nav a:hover{
 
 #boxes .box ul{
    text-align: left;
-   list-style: georgian;
-   list-style-type: disc;
-   margin: 10px;
+   margin: 15px;
 }
 
 
