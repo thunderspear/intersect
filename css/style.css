@@ -119,7 +119,7 @@ header nav a:hover{
 }
 
 #showcase .container{
-   width: 80%;
+   width: 70%;
    /*background: linear-gradient( silver, #f4f4f4);*/
    min-height: inherit;
    max-width: 1000px;
@@ -128,10 +128,6 @@ header nav a:hover{
 #showcase h1{
    font-size: 50px;
    margin-top: 75px;
-}
-
-#showcase ul{
-
 }
 
 #showcase .box{
@@ -164,11 +160,9 @@ header nav a:hover{
    margin-bottom: 20px;
 }
 
-
 /* Customers */
 #customers{
    color: #000000;
-   background: #c0c0c0;
    text-align: center;
    list-style: none;
    padding-bottom: 20px;
@@ -215,7 +209,7 @@ header nav a:hover{
    text-align: justify;
 }
 
-#boxes .container:after {
+#boxes .container::after {
   content: '';
   width: 100%; /* At least 2 lines of text forces justification */
   display: inline-block;
@@ -223,15 +217,22 @@ header nav a:hover{
 
 #boxes .box{
    width: 30%;
+   text-align: center;
    display: inline-block;
    float: left;
    margin: 3px;
-   text-align: center;
    min-height: 350px;
 }
 
 #boxes .box img{
    height: 100px;
+}
+
+#boxes .box ul{
+   text-align: left;
+   list-style: georgian;
+   list-style-type: disc;
+   margin: 10px;
 }
 
 
