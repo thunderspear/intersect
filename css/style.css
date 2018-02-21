@@ -56,19 +56,11 @@ header{
    border-bottom: solid #FDDC22 2px;
 }
 
-header a{
-   color: #c0c0c0;
-   text-decoration: none;
-   text-transform: uppercase;
-   font-size: 16px;
-}
-
 header li{
    float: left;
    display: inline;
    padding: 0 20px 0 20px;
 }
-
 
 header #branding{
    float: left;
@@ -80,6 +72,13 @@ header #branding h2{
    line-height: 1.0;
    font-weight: normal;
 }
+
+header #branding a{
+   text-decoration: none;
+   color: inherit;
+   font-weight: inherit;
+}
+
 header #branding .subtitle{
    float: left;
    clear: left;
@@ -98,7 +97,14 @@ header .current a{
    font-weight: bold;
 }
 
-header a:hover{
+header nav a{
+   color: #c0c0c0;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+}
+
+header nav a:hover{
    color: #FFFFFF;
    font-weight: bold;
 }
@@ -222,8 +228,6 @@ header a:hover{
    margin: 3px;
    text-align: center;
    min-height: 350px;
-   background: #c0c0c0;
-   padding: 10px;
 }
 
 #boxes .box img{
