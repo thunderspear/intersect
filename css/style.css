@@ -172,6 +172,33 @@ header nav a:hover{
    list-style: inherit;
 }
 
+
+/* Offerings */
+
+
+#offerings .service{
+   min-height: 150px;
+   display: block;
+   float: left;
+   margin: 30px;
+   border: 1px dashed #000000;
+   width: 95%;
+}
+
+#offerings .service .description{
+   float: left;
+   width: 60%;
+}
+
+#offerings img{
+   width: 30%;
+   float: right;
+}
+
+#offerings h3{
+}
+
+
 /* Newletter
 #newsletter{
    padding: 15px;
@@ -199,6 +226,8 @@ header nav a:hover{
          and figure out ie compatibility
 */
 
+
+/*
 #boxes{
    margin: 25px 0 25px 0;
    display: inline-block;
@@ -212,7 +241,7 @@ header nav a:hover{
 
 #boxes .container::after {
   content: '';
-  width: 100%; /* At least 2 lines of text forces justification */
+  width: 100%; /* At least 2 lines of text forces justification
   display: inline-block;
 }
 
@@ -232,7 +261,8 @@ header nav a:hover{
 #boxes .box ul{
    text-align: left;
    margin: 15px;
-}
+}*/
+
 
 
 /* Main Column*/
