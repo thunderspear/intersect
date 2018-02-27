@@ -32,6 +32,7 @@ ul{
    background: #35424a;
    color: #FFFFFF;
    margin: 10px 0 10px 0;
+   text-align: left;
 }
 
 h1{
@@ -114,7 +115,7 @@ header nav a:hover{
 #showcase{
    min-height: 300px;
    text-align: center;
-   background: url('../img/showcase-light.jpg') center/150% no-repeat;
+   background: url('../img/showcase-light.jpg') center/100% no-repeat;
    color: #000000;
 }
 
@@ -174,15 +175,15 @@ header nav a:hover{
 
 
 /* Offerings */
-
-
 #offerings .service{
    min-height: 150px;
+   max-height: 300px;
    display: block;
    float: left;
-   margin: 30px;
+   margin: 15px 30px 15px 30px;
    width: 95%;
    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+   padding-bottom: 10px;
 }
 
 #offerings .service .h3{
@@ -192,15 +193,19 @@ header nav a:hover{
 #offerings .service .description{
    float: left;
    width: 60%;
-   margin: 5px 7px 5px 7px;
+   margin-left: 10px;
 }
 
 #offerings img{
    width: 30%;
    float: right;
+   max-height: 300px;
+   max-width: 350px;
 }
 
 #offerings h3{
+   font-size: 20px;
+   font-weight: bold;
 }
 
 
@@ -277,6 +282,10 @@ article.main-col{
    text-align: left;
 }
 
+article.main-col img{
+   width: 100%;
+}
+
 article p{
    float: left;
 }
@@ -285,6 +294,7 @@ article p{
 aside#sidebar{
    float: right;
    width: 30%;
+   text-align: center;
 }
 
 aside#sidebar img{
@@ -292,6 +302,12 @@ aside#sidebar img{
    padding-right: 5px;
    color: #FFFFFF;
 }
+
+aside#sidebar img#portrait{
+   margin: 110px 0px 0px 0px;
+   height: auto;
+}
+
 aside#sidebar a{
    text-decoration: underline;
    color: inherit;
@@ -307,6 +323,16 @@ aside#sidebar .quote input,
 aside#sidebar .quote textarea{
    width: 90%;
    padding: 5px;
+}
+
+/* Services */
+
+#services{
+ list-style: none;
+}
+
+#services .bullets{
+   list-style: disc;
 }
 
 footer{
@@ -327,6 +353,8 @@ footer{
    #newsletter h1,
    #newsletter form,
    #boxes .box,
+   #offerings .service,
+   #offerings .service .description,
    article.main-col,
    aside#sidebar{
       float: none;
@@ -356,4 +384,18 @@ footer{
       width: 100%;
       margin-bottom: 5px;
    }
+
+   #offerings .service{
+      width: 80%;
+      padding: 10px 10px 65px 10px;
+
+   }
+   #offerings .service img{
+      display:none;
+   }
+
+      #offerings .service .description{
+         padding: 0;
+         margin: 0;
+      }
 }
