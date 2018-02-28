@@ -123,7 +123,7 @@ header nav a:hover{
    width: 70%;
    /*background: linear-gradient( silver, #f4f4f4);*/
    min-height: inherit;
-   max-width: 1000px;
+   max-width: 800px;
 }
 
 #showcase h1{
@@ -146,13 +146,7 @@ header nav a:hover{
 
 #showcase p{
    font-size: 20px;
-   text-align: justify;
-}
-
-/* Statement */
-#statement{
    text-align: left;
-   color: #FFFFFF;
 }
 
 #signature{
@@ -171,13 +165,18 @@ header nav a:hover{
 
 #customers ul{
    list-style: inherit;
+   font-size: 18px;
 }
+
+#customers h2{
+   margin: 30px 0 10px 0;
+}
+
 
 
 /* Offerings */
 #offerings .service{
    min-height: 150px;
-   max-height: 300px;
    display: block;
    float: left;
    margin: 15px 30px 15px 30px;
@@ -388,6 +387,7 @@ footer{
    #offerings .service{
       width: 80%;
       padding: 10px 10px 65px 10px;
+      max-height:;
 
    }
    #offerings .service img{
