@@ -199,7 +199,7 @@ header nav a:hover{
    width: 30%;
    float: right;
    max-height: 300px;
-   max-width: 350px;
+   max-width: 450px;
 }
 
 #offerings h3{
@@ -360,6 +360,10 @@ footer{
       text-align: center;
       width: 100%
    }
+
+header nav li{
+   padding: 10px;
+}
 
 #showcase{
       background: url('../img/showcase-light.jpg') center/300% no-repeat;
