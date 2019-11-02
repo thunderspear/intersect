@@ -52,15 +52,14 @@ h2{
 header{
    background: #236AB9;
    color: #c0c0c0;
-   padding-top: 30px;
+   padding-top: 14px;
    min-height: 70px;
-   border-bottom: solid #FDDC22 2px;
+   border-bottom: solid #FDDC22 3px;
 }
 
 header li{
-   float: left;
    display: inline;
-   padding: 0 20px 0 20px;
+   padding: 10px 20px;
 }
 
 header #branding{
@@ -106,8 +105,9 @@ header nav a{
 }
 
 header nav a:hover{
+   border-bottom: 4px solid #FDDC22;
+   transition: ease-in-out 130ms;
    color: #FFFFFF;
-   font-weight: bold;
 }
 
 
@@ -139,7 +139,7 @@ header nav a:hover{
    padding: 0;
    text-align: center;
    background: white;
-   color: #000000
+   color: #000000;
    opacity: 0.5;
 }
 
