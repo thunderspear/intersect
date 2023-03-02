@@ -110,6 +110,13 @@ header nav a:hover{
    color: #FFFFFF;
 }
 
+/* Announce */
+#announce{
+   background-color:#a4c1e2;
+   text-align: center;
+   padding: 1px;
+   margin: 0px;
+}
 
 /* Showcase */
 #showcase{
@@ -192,11 +199,11 @@ header nav a:hover{
 #offerings .service .description{
    float: left;
    width: 60%;
-   margin-left: 10px;
+   margin: 30px 0 0 30px;
 }
 
 #offerings img{
-   width: 30%;
+   width: 40%;
    float: right;
    max-height: 300px;
    max-width: 450px;
