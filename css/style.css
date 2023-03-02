@@ -214,6 +214,12 @@ header nav a:hover{
    font-weight: bold;
 }
 
+/* Downloads */
+#downloads{
+   padding: 50px;
+}
+
+
 
 /* Newletter
 #newsletter{
@@ -347,7 +353,7 @@ footer{
    background-color: #236AB9;
    padding: 10px;
    margin-top: 20px;
-}
+
 
 /* ------------------------------- Media Options ---------------------------*/
 @media(max-width: 768px){
