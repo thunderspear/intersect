@@ -95,7 +95,13 @@
       </section>
 
       <footer id="copyright">
-         <p>Intersect Orthotic and Prosthetic Solutions, Copyright &copy; 2020</p>
+         <p>Intersect Orthotic and Prosthetic Solutions, &copy;<span id="currentYear"></span></p>
+
+         <script>
+            const currentYear = new Date().getFullYear();
+            document.getElementById('currentYear').textContent = currentYear;
+         </script>
+
       </footer>
 
 
